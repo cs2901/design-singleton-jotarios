@@ -45,8 +45,8 @@ public class Singleton {
 - Improve ChocolateBoiler class by turning it into a Singleton
 .. - Everyone knows that all modern chocolate factories have computer controlled chocolate boilers. The job of the boiler is to take the chocolate and milk, bring them to a boil, and then pass them on to the next phase of making chocolate bars.  Probably suspect that if two ChocolateBoiler instances get loose, some very bad things can happen. How might things go wrong if more than one instance of ChocolateBoilder is created in an application?
 
-- Singleton class solution is [here](src/ChocolateBoiler.java).
+> Singleton class solution is [here](src/ChocolateBoiler.java).
 
 - Multithreading the creation of Singleton ChocolateBoiler
 
-- Multihreading the creation is available using [`SimpleThread`](src/SimpleThread.java) class and [`Main`](src/Main.java) class.
+> Multihreading the creation is available using [`SimpleThread`](src/SimpleThread.java) class and [`Main`](src/Main.java) class.
