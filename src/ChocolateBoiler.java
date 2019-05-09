@@ -2,7 +2,7 @@ package com.utec.design.patterns;
 
 public class ChocolateBoiler {
     //Singleton
-    private static ChocolateBoiler instance = null;
+    private static ChocolateBoiler instance = new ChocolateBoiler();
 
     private boolean empty;
     private boolean boiled;
@@ -42,11 +42,6 @@ public class ChocolateBoiler {
     }
 
     public static ChocolateBoiler getInstance() {
-        if (instance == null) {
-            instance = new ChocolateBoiler();
-            System.out.println("Se creó el objeto por primera vez");
-        }
-
         return instance;
     }
 }
